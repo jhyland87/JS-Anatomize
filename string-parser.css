@@ -1,0 +1,235 @@
+body {
+    font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 0;
+     display: box;
+    flex-align: center;
+    flex-pack: center;
+}
+#content{
+    height:100vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:0;
+    margin-bottom:0;
+    background-color: white;    
+    min-width: 600px;
+    max-width: 800px;
+    display: block;
+    padding: 5px;
+    box-shadow: 0 0 15px #888888;
+    /*
+    border-left: 6px solid #ff9292;
+    background-color: rgba(232, 232, 232, 1);
+    border-bottom: 1px solid black;
+    margin: 15px;
+    box-shadow: 0 0 5px #888888;
+    */
+}
+a {
+    text-decoration: none;
+    color: #1c90f3
+}
+a:hover {
+    text-decoration: underline;
+}
+h1.page-title {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dotted #ff9292;
+    border-top: 1px dotted #ff9292;
+    background-color: beige;
+
+}
+/* EXAMPLE FORM RELATED -----------------------------
+    border-bottom: 1px solid #ff9292;
+ */
+.common-style-1 {
+    border-bottom: 1px solid #ff9292;
+    border-top: 1px solid #ff9292;
+    margin: 5px;
+}
+#submit {
+    /*background-color: #d66b6b; */
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 250px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.field-input {
+    width: 100%;
+    height: 130px;
+}
+.common-width {
+    width: 100%;
+}
+#submit {
+    box-shadow: 0 0 5px #888888;
+    background-color: #ff9292;
+}
+#submit:hover {
+    box-shadow: 0 0 15px #888888;
+    background-color: #ff5d5d;
+}
+#examples {
+    border-top: 1px dashed #ff9292;
+}
+/* What to show in the EMPTY example box */
+#examples:empty:before {
+   content: "Submit an example to view this in action..";
+   text-align: center !important;
+    font-style: oblique;
+    font-size: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+    line-height: 90px;
+}
+.btn-td{
+    text-align:center;
+}
+#form-table {
+
+}
+#alerts:not(empty) {
+    display:block:
+}
+#alerts:empty {
+  display: none;
+}
+ul#demos-links {
+    font-weight: normal;
+    text-align:right;
+    position: relative;
+}
+ul#demos-links > li {
+    display: inline-flex;
+      position: absolute;
+      list-style: none;
+      float: left;
+      padding-left: 1px;
+}
+
+/*
+    .primary-link-container {
+      position: relative;
+      padding: 0; 
+      margin: 0; 
+      width: auto; 
+    }
+    .primary-link-container > .link-subitem {
+      display: none; 
+      position: absolute; 
+      padding-left: 1px;
+      margin-top: 5px;
+    }
+    .primary-link-container:hover > .link-subitem {
+      width: auto;
+      display: inline-flex;
+      position: absolute;
+      list-style: none;
+      float: left;
+      padding-left: 1px;
+    }
+    .primary-link-container > .link-subitem > li {
+      display: inline; 
+      padding-left: 1px;
+    }
+
+*/
+
+.demo-txt {
+    display:block;
+}
+a.demo-link {
+    font-size: small;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a.demo-link:hover {
+    font-style: italic;
+}
+
+
+
+/* TEST CASE RELATED ----------------
+ */
+
+/* Test Case Container 
+ */
+span.tcc {
+    display: block;
+    padding: 5px;
+    width: 95%;
+    border-left: 6px solid #ff9292;
+    background-color: rgba(232, 232, 232, 1);
+    border-bottom: 1px solid black;
+    margin: 15px;
+    box-shadow: 0 0 5px #888888;
+}
+/* Test Case Container - Hover 
+ */
+span.tcc:hover {
+    /*border-left: 8px solid #ff9292;*/
+    /*box-shadow: 0 0 15px #888888;*/
+    box-shadow: 0 0 15px #484848;
+    border-left: 6px solid #ff5d5d;
+}
+/* Test Case Number 
+ */
+span.tcn {
+    font-style: oblique;
+    font-variant: small-caps;
+    color: #737373;
+}
+/* Test Case Replacement Value Type 
+ */
+span.tcrvt {
+    font-size: smaller;
+    font-style: italic;
+    float: right;
+}
+/* Test Case Replacement Value Type String 
+ */
+span.tcrvts {
+    font-weight: bold;
+}
+/* Test Case Result 
+ */
+span.tcr {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 5px;
+    font-family: monospace;
+    white-space: pre;
+}
+/* Test Case Result - Hover 
+ */
+span.tcr:hover {
+    text-decoration: bolder;
+}
+/* Test Case Result Prefix 
+ */
+span.tcrp {
+    color: #a5a5a5;
+    font-size: smaller;
+    width: 100%;
+    display: block;
+    font-style: italic;
+    margin-left: 3px;
+    border-bottom: 1px dashed #745c5c;
+}

@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../string-parser.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	</head>
+
+	<body>
+
+<div id="content">
+  <h1 class="page-title">Super Duper Cool String Parser</h1>
+  <div id="alerts" class="common-style-1 common-width"></div>
+  <table id="form-table" class="common-style-1 common-width">
+    <tr>
+      <td>String</td>
+      <td>
+                <textarea id="string" class="field-input">My BFF's are:
+ #. {fn:uc}, {ln:uc}
+ 1. {iol:uf}, {iof:uf}
+ 2. {ghl:uf}, {ghf:uf}</textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>Replacements</td>
+      <td>
+      <textarea id="replacements" class="field-input">{ 
+    &quot;fn&quot;  : &quot;first name&quot;, 
+    &quot;ln&quot;  : &quot;last name&quot;,         
+    &quot;ghl&quot;  : &quot;hatch&quot;, 
+    &quot;ghf&quot;  : &quot;geoff&quot;,
+    &quot;iol&quot;  : &quot;owens&quot;, 
+    &quot;iof&quot;  : &quot;izzy&quot;
+ }</textarea>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <ul id="demo-links">
+          <li class="demos-label">Examples:</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="btn-td" colspan="2">
+        <button id="submit">Parse String</button>
+      </td>
+    </tr>
+  </table>
+  <div id="examples" class="common-width"></div>
+</div>
+
+	</body>
+</html>
+
+<script type="text/javascript">
+  (function($){
+
+   //$('body').append('jQuery is working... WOOT!')
+
+  })(jQuery)
+</script>
+
+    <script src="../string-parser.jquery.js" type="text/javascript"></script>
