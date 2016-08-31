@@ -36,4 +36,11 @@ Here are a couple I have in mind already to create rather soon:
  - **ra**: Randomize the order of the characers in the word
  - **0-3**: Only show the characters in locations 0 through 3
 
+### Features To Come
+ - **Multi-Level Macro "keys"** (EG: `{foo.bar}` would look for `{ "foo": { "bar" : 'str' } }`
+ - **Arrays as replacements**, and use numerical macro keys to reference the array key value
+ - **Accept arrays of strings to parse**, as opposed to having to run the main method over two large strings which may use the same replacements object (this would be a more efficient way of doing it)
+ - **Default values** for when there's a macro with a key that doesn't have a maired value
+
+
 And there wll be more to come!!
