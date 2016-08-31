@@ -22,5 +22,15 @@ Utils.substVars('Hello, my name is {fnam:lc:uf} {lname:lc:uf}. My email is {fnam
 // Result: Hello, my name is John Doe. My email is j.doe@some-company.come.
 ```
 
-### More To Come!
-I just got started on this
+### Macro Operators
+Macros are the `{things:like:this}`. The details are retrieved by splitting the macro by a colon (which may be configurable later..). The **first** element in the split result is the key, which is used to match for the alue to be replaced. The rest are the **Macro Operators**. 
+
+Here are a couple I have in mind already to create rather soon:
+
+ - **uc**: Upper Case entire word
+ - **lc**: Lower Case entie word
+ - **re**: Reverse the word (EG: `foobar` -> `raboof`)
+ - **ra**: Randomize the order of the characers in the word
+ - **0-3**: Only show the characters in locations 0 through 3
+
+And there wll be more to come!!
