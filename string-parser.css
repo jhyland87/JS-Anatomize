@@ -46,6 +46,24 @@ h1.page-title {
     background-color: beige;
 
 }
+.float-left {
+    float: left !important;
+}
+.float-right {
+    float: right !important;
+}
+.h3-summary {
+    height: 20px;
+    text-align: right;
+    padding: 2px;
+    background-color: #dcedf5;
+    font-weight:200;
+    font-size: 12px;
+}
+.git-summary > a, .git-summary > span > a {
+    font-weight:500;
+    color: #ff9292;
+}
 /* EXAMPLE FORM RELATED -----------------------------
     border-bottom: 1px solid #ff9292;
  */
