@@ -7,8 +7,8 @@ It's basically an awesome and easy way to allow users to add veriables and even 
 Utils.substVars('{hi} {earth}', { hi: 'hello', earth: 'world'} )
 // Result: 'hello world'
 
-Utils.substVars('{hi:uc} {earth:uc}', { hi: 'hello', earth: 'world'} ) // Notice the :uc, well thats uppercase (the whole world)
-// Result: 'HELLO WORLD' 
+Utils.substVars('{hi:lc} {earth:hc}', { hi: 'Hello', earth: 'World'} ) // Notice the :uc (to force upper case), and :lc (for lower) 
+// Result: 'hello WORLD' 
 
 Utils.substVars('{hi:uf} %earth:uf}', { hi: 'hello', earth: 'world'} ) // Notice the :uf, well thats uppercase (the FIRST letter), and leave the rest alone
 // Result: 'Hello World' 
