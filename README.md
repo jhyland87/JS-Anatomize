@@ -2,6 +2,9 @@
 ### Summary
 It's basically an awesome and easy way to allow users to add veriables and even "macros" 
 
+### Preview
+I actually coded this entire thing on JSFiddle, I didnt really expect it to get anywhere near the size that it got. So check out the [JSFiddle](https://jsfiddle.net/jLinux/0n65sgh2/) instance.
+
 ### Examples
 ```javascript
 Utils.substVars('{hi} {earth}', { hi: 'hello', earth: 'world'} )
